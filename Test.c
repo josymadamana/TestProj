@@ -11,8 +11,19 @@ main()
 	{
 		scanf("%d", &a[i]);
 	}
+	printf("The Initial Array is\n");
+	for(i=0 i <NUM_ELEMS; i++)
+	{
+		printf("%d",a[i]);
+	}
 	mergeSort(min,max);
+	printf("The Sorted Array is\n");
+	for(i=0 i <NUM_ELEMS; i++)
+	{
+		printf("%d",a[i]);
+	}
 	printf("Done\n");
+	printf("Done2\n");
 }
 
 /* Sorting Function*/
