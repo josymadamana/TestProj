@@ -23,6 +23,7 @@ main()
 		printf("%d",a[i]);
 	}
 	printf("Done\n");
+	printf("Done2\n");
 }
 
 /* Sorting Function*/
