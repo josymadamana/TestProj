@@ -12,6 +12,7 @@ main()
 		scanf("%d", &a[i]);
 	}
 	mergeSort(min,max);
+	printf("Done\n");
 }
 
 /* Sorting Function*/
